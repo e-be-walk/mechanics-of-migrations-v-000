@@ -4,8 +4,8 @@ require 'yaml/store'
 require 'ostruct'
 require 'date'
 
-require 'bundle/setup'
-Bundler.require 
+require 'bundler/setup'
+Bundler.require
 
 ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
